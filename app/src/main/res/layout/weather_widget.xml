@@ -4,28 +4,18 @@
     android:layout_height="150dp" android:id="@+id/layout">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/temperature"
-        android:text="Temperature"/>
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/temperature" android:text="Temperature"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/pressure" android:text="Pressure"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/humidity" android:text="Humidity"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/pressure"
-        android:text="Pressure"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/humidity"
-        android:text="Humidity"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/wind"
-        android:text="Wind"/>
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/wind" android:text="Wind"/>
 
 
 </LinearLayout>
